@@ -13,6 +13,7 @@ function NumberInput({ setNumber }) {
    */
   function onChangeHandler(event) {
     const value = event.target.value;
+    const jaaj;
     const parsedValue = parseInt(value, 10);
     if (isNaN(parsedValue)) {
       setNumber(0);
